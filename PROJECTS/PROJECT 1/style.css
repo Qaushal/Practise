@@ -1,0 +1,62 @@
+                        /* CSS FOR BACKGROUND */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f5ed;
+    box-sizing: border-box; /* research it */
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+                        /* CSS FOR NAVBAR */
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    /* gap: 50px;  another way to  give space between them */
+    align-items: center;
+}
+nav ul li{
+    list-style: none; /*to remove bullet points*/
+    margin-right: 5%; /*to  give space between them*/
+    font-weight: 500; /*Research it*/
+    
+}
+                    /* CSS FOR  MAIN SECTION */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+.leftmain{
+    width: 40%;
+}
+.leftmain h1{
+    font-size: 75px;
+}
+.leftmain p{
+    padding: 5% /*Top and Bottom is 5*/ 0% /*left and right is 0*/;
+    font-size: 19px;
+}
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    font-weight:bold;
+
+}
+.rightmain{
+    width: 60%;
+    margin-left: 15%;
+}
+.rightmain img{
+    padding: 1%;
+
+}

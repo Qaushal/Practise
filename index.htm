@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+</head>
+
+<style>
+    /* p{
+        color: #fff; 
+        background-color: #4d4d4d; 
+    }  */
+    
+    /* UNIVERSAL SELECTOR */
+     *{
+        background-color: #4d4d4d;
+        color: #fff;
+    } */
+
+    /* CLASS(.) AND ID(#) SELECTOR */
+     .warning{  
+        background-color: #d9ef34;
+        color: black;
+
+     }
+     #hello{
+        background-color: #fff;
+        color: black;
+     }
+    
+     /* AND SELECTOR */
+    li.bboy {
+        background-color: lime;
+        color: black;
+    }
+    li.bboy.wwhite{
+        background-color: pink;
+        color: black;
+    }
+
+    /* COMBINED SELECTOR */
+    h1  , li{
+        background-color: #50DBB4;
+        color: black;
+    }
+
+    /* INSIDE AN ELEMENT  */
+    div ul li {
+        background-color: #FD297A;
+        color: black;
+    }
+    
+    /* DIRECT CHILD */
+    div > li {
+        background-color: #FF6666;
+        color: black;
+    }
+
+    /* SIBLING + OR ~ */
+    .sibling1 + p {
+        background: rgb(141, 69, 141);
+        
+    }
+    .sibling2 ~ p{
+        background-color: #F4CE6A;
+        color: black;
+    } 
+   
+     </style>
+       
+    <body>
+    <h1 title = "HELLO WORLD">HEADING 1</h1>
+    <h2 title = "BYE WORLD">HEADING 2</h2>
+    <a href="./refer.html">Refer pages</a>
+    <ul>
+        <li class="warning">ITEM 1</li>
+        <li class = "bboy wwhite">ITEM 2</li>
+        <li class = "bboy">ITEM 2</li>
+        <li id="hello">ITEM 3</li>
+        <li>ITEM 4</li>
+    </ul>
+    <div>
+        <li>WELCOME GUYS</li>
+        <ul>
+            <li>WELCOME ONE</li>
+            <li>WELCOME TWO</li>
+        </ul>
+        <p >AVENGERS</p>
+        <p class = "sibling1">VISION</p>
+        <p>HULK</p>
+        <p class = "sibling2">IRON MAN </p>
+        <p>THOR</p>
+    </div>
+
+
+<p title = "Let's code"> Lorem ipsum <br> dolor sit amet consectetur, adipisicing elit. Aut autem, aliquid Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur saepe culpa nobis praesentium, modi atque ipsa a, suscipit non provident corporis eligendi asperiores dignissimos tempora id, illo consequatur eveniet? Voluptatibus. modi suscipit beatae, vel laudantium enim quaerat provident minus temporibus iure accusantium similique blanditiis consectetur molestias assumenda officiis.br Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore sit suscipit iusto voluptas totam maiores iste ullam velit fugiat consequuntur a sunt odio soluta numquam est fuga, nesciunt aut! Commodi, quidem impedit. Vero, temporibus repellendus incidunt dolore sed voluptatum id totam, et voluptatibus tempora iure laborum consequuntur quos. Dolorem a illo possimus tempore repellat neque. Aspernatur, quam expedita neque laudantium eaque velit ipsa placeat quasi cupiditate quod. Inventore repellat voluptas sint porro officia eveniet aliquid, hic reiciendis temporibus distinctio ex. Ullam vel sunt eligendi ex odio quos recusandae maxime qui quibusdam, expedita id vitae. Vitae voluptates enim consequatur praesentium perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur eligendi tenetur maiores ab quo consectetur ea esse animi, laboriosam explicabo facilis doloribus temporibus eius vel repudiandae nostrum dignissimos quaerat! recusandae sapiente aliquam aliquid. Voluptatum, sed quam velit reiciendis earum in eum voluptate unde, at hic iure adipisci corporis similique non. </p>
+
+<img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="PHOTO" width = "500">
+
+
+</body>
+</html>
+

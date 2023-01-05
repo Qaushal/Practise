@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUERY</title>
+</head>
+
+<style>
+    body{
+        display: flex;
+    }
+    .box{
+        height: 70px;
+        width: 70px;
+        border: 1px solid black;
+        text-align: center;
+        margin: 10px;
+    }
+    @media(max-width:500px){
+        body{
+            background-color: yellow;
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    @media(min-width:501px) and (max-width:766px){
+        body{
+        display: flex;
+        flex-direction:column-reverse;
+        border: 2px solid black;
+        gap: 10px;
+        background-color: purple;
+    }
+    .box{
+            text-align:center;
+            border: 7px solid black;
+            background-color: yellow;
+            border-radius: 50px;
+        }
+    }
+
+</style>
+<body>
+    <div class="box">ONE</div>
+    <div class="box">TWO</div>
+    <div class="box">THREE</div>
+    <div class="box">FOUR</div>
+    
+</body>
+</html>
